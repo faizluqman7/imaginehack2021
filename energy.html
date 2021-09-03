@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<title>Energy - Cyberjaya Sustainable City</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+
+<body>
+<h1>Cyberjaya Sustainable City</h1>
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="goals.html">Goals</a>
+  <a class="active" href="energy.html">Energy</a>
+  <a href="mobility.html">Mobility</a>
+  <a href="connectivity.html">Connectivity</a>
+  <a href="accessibility.html">Accessibility</a>
+</div>
+
+<div class="general">
+  <h2>Energy</h2>
+  <img src="https://images.unsplash.com/photo-1562519990-50eb51e282b2?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=thomas-reaubourg-JRUVbgJJTBM-unsplash.jpg" alt="Windmill" width="300" height="150">
+  <h3>With the aim of fulfilling target 11.6, we would be able to reduce the impact of cities on the environment by saving energy and using renewable resources</h3>
+  
+</div>
+
+
+<div class="general">
+  <h2>Steps we take to save energy</h2>
+  <img src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=american-public-power-association-XGAZzyLzn18-unsplash.jpg" alt="solar panel" width="300" height="150">
+  <h3>Solar panels on every house</h3>
+  <p>Solar panels are very sustainable as it produces its energy from photovoltic cells by the energy of the sun. Therefore not requiring the use of coal burning or natural gas which harms the environment.</p>
+  
+  <img src="https://images.unsplash.com/photo-1590845947670-c009801ffa74?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=daniele-franchi-GbAEJUJKJ88-unsplash.jpg" alt="lightbulb" width="300" height="150">
+  <h3>LED Light Bulbs everywhere around the city</h3>
+  <p>By installing LED light bulbs in street lamps, cafe's, restaurants, offices and homes, we are able to reduce the need for energy for lighting up our environments. Since LED light bulbs consume significantly less energy compared to the traditional CFL light bulbs, it draws less power from the sockets and thus saving energy.</p>
+  <p>
+  	In addition, some LED bulbs allow you to control its operations(on/off/colour) using a mobile app or smart devices such as google home, Alexa or Apple HomePod.
+  </p>
+  
+</div>
+
+<div class="general">
+  <h2>How can you contribute?</h2>
+  <p>We strongly encourage citizens of Cyberjaya to transition to these types of renewable energy products. We do hope to seek for subsidies in order to speed up the process of transition into a greener and more sustainable city. At the same time, items such as LED light bulbs are somewhat affordable! Check out the links down below to visit the e-commerce sites to buy and play a part in transforming our city to be a better city </p>
+  
+  <h3>LED Light Bulbs</h3>
+  <a href="https://www.lazada.com.my/products/philips-led-bulb-essential-5w-3000k-5w-6500k-i589234397-s2728602014.html?search=1"><img src="https://4.bp.blogspot.com/-d7ejX_qMOTI/XgrnnlT-VwI/AAAAAAAABPw/GtwyGgILiF8aWtCaYoKEKokgsokXi4rIQCLcBGAsYHQ/s1600/lazada.png" alt="lazbutton" width="70" height="70" /></a>
+  
+  <a href="https://shopee.com.my/Philips-LED-Stick-E27-(7.5W-3000K-4000K-6500K)-i.225126980.6733808025"><img src="https://logodownload.org/wp-content/uploads/2021/03/shopee-logo-0.png" alt="shopee" width="70" height="70" /></a>
+  
+</div>
+
+<div class="general">
+	
+	<h2>Calculate your energy consumption here!</h2>
+	<h3>Have a look at the TNB pricing per kWh <a href="https://www.tnb.com.my/assets/files/Tariff_Rate_Final_01.Jan.2014.pdf">here</a></h3>
+  <label for="rating">Rating of appliance (Watts): </label>
+  <input type="text" id="rating" name="rating"><br><br>
+  <label for="hours">Hours appliance turned on: </label>
+  <input type="text" id="hours" name="hours"><br><br>
+  <button class = "calculatebutton" onclick="calculateenergy()">Calculate</button>
+  <h2 id="kwh"></h2>
+  
+</div>
+
+
+</body>
+</html>
